@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo -n "" > /home/matt/Scripts/wedi_cfg #erasing the config file
+exit 0;

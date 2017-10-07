@@ -1,0 +1,5 @@
+#!/bin/sh
+# restarting ethernet and wirelles kernel modules
+
+sudo rmmod r8169 && sudo modprobe r8169
+sudo rmmod rtl8723be && sudo modprobe rtl8723be 
